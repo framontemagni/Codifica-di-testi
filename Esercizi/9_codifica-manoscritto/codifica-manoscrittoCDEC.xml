@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- Trascrivere e codificare le prime righe della pagina selezionata dal sito del CDEC. -->
+
+<!DOCTYPE TEI SYSTEM "tei_all.dtd">
+
+<TEI>
+    <teiHeader>
+        <fileDesc>
+            <titleStmt> 
+                <title>Amalia Segre ricorda il figlio Ennio Artom - codifica elettronica</title>
+                <author ref="#ASA"> Amalia Segre Artom </author>
+            </titleStmt>
+            <editionStmt>
+                <edition> Edizione digitale realizzata per il corso di Codifica di testi dell'Università di Pisa, nell'anno accademico <date from="2022" to="2023">2022-2023</date>.</edition>
+                <respStmt xml:id="FM"> 
+                    <resp> Codifica di: </resp> 
+                    <name> Francesca Montemagni </name>
+                </respStmt>
+            </editionStmt>
+            <publicationStmt>
+                <publisher ref="#unipi"> Università di Pisa </publisher>
+                <address>
+                    <addrLine> Lungarno Antonio Pacinotti 43,</addrLine>
+                    <addrLine>56126,</addrLine>
+                    <addrLine>Pisa (PI),</addrLine>
+                    <addrLine>Italia</addrLine>
+                </address>
+                <date when="2023"> 2023 </date>
+                <availability status="free"><p> Opera ad accesso libero </p></availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country key="IT"> Italia </country>
+                        <settlement type="city" ref="#MI"> Milano </settlement> 
+                        <institution ref="#CDEC"> Centro di Documentazione Ebraica Contemporanea </institution>
+                        <repository ref="http://digital-library.cdec.it/cdec-web/storico/detail/IT-CDEC-ST0003-000001/Fondo+Emanuele+Artom.html"> Fondo Emanuele Artom </repository>
+                        <collection> Fondo Emanuele Artom </collection>
+                        <idno> Fascicolo cartaceo cc. 15; busta 1, fascicolo 7.</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <msItem n="1">
+                            <author ref="EmA"> Emanuele Artom </author>
+                            <title> Lettera di Emanuele Artom scritta a <placeName>Courmayeur</placeName> il <date when="1937-7-15">15 luglio 1937</date></title>
+                        </msItem>
+                        <msItem n="2">
+                            <author ref="#EnA">Ennio Artom</author>
+                            <title>Copertina manoscritta di un libro di algebra con allegato compito di matematica svolto da <persName><forename>Ennio</forename><surname>Artom</surname></persName> il <date when="1934-11-12">12 novembre 1934</date> conservati dalla madre <persName><forename>Amalia</forename></persName></title>
+                            <textLang mainLang="it">Italiano</textLang>
+                        </msItem>
+                        <msItem n="3">
+                            <author ref="#ASA">Amalia Segre Artom</author>
+                            <title>Manoscritti di Amalia Segre di rievocazione della vita e della scomparsa del figlio Ennio</title>
+                            <textLang mainLang="it">Italiano</textLang>
+                        </msItem>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc material="paper">
+                                <support>Fogli di <material>carta</material>.</support>
+                                <extent>27 pagine</extent>
+                            </supportDesc>
+                        </objectDesc>
+                        <handDesc hands="3">
+                            <p>Il manoscritto contiene testi scritti da Amalia segre e dai figli Ennio Artom e Emanuele Artom.</p>
+                        </handDesc>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc><p>La codifica del testo è stata realizzata rispettando le linee guida TEI P5.</p></projectDesc>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="it" usage="100">Italiano</language>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+
+    <facsimile>
+        <surface>
+            <graphic url='manoscrittoCDEC.png' width='1856.86666px' height='740.86666px' />
+            <zone xml:id="passo-intero" ulx="50" uly="48" lrx="1803" lry="713" />
+            <zone ulx="59" uly="57" lrx="1803" lry="185" xml:id="r1" />
+            <zone ulx="56" uly="161" lrx="1808" lry="255" xml:id="r2"/>
+            <zone ulx="56" uly="237" lrx="1798" lry="320" xml:id="r3"/>
+            <zone ulx="56" uly="308" lrx="1804" lry="366" xml:id="r4"/>
+            <zone ulx="56" uly="345" lrx="1800" lry="411" xml:id="r5"/>
+            <zone ulx="54" uly="393" lrx="1794" lry="453" xml:id="r6"/>
+            <zone ulx="53" uly="420" lrx="1798" lry="523" xml:id="r7"/>
+            <zone ulx="54" uly="489" lrx="1798" lry="533" xml:id="r8"/>
+            <zone ulx="51" uly="532" lrx="1800" lry="612" xml:id="r9"/>
+            <zone ulx="45" uly="600" lrx="1788" lry="711" xml:id="r10"/>
+        </surface>
+    </facsimile>
+
+    <text>
+        <body>
+            <div>
+                <pb n="1"/>
+                <ab>
+                    <lb n="1" facs="#r1" xml:id="lb1" break="no"/>
+                    <date when="1920-4-25">25 Aprile 1920</date> - <date when="1940-7-29">29 Luglio 1940</date> - Vent'anni:
+                    <lb n="2" facs="#r2" xml:id="lb2" break="yes"/>
+                    appena il <unclear reason="illegible" cert="low">luccicare</unclear> della vita, ma breve e lumino=
+                    <lb n="3" facs="#r3" xml:id="lb3" break="no" rend="double_stroke"/>
+                    so veramente, come dice il ricordo marmoreo,
+                    <lb n="4" facs="#r4" xml:id="lb4" break="no"/>
+                    <add place="above">tenne fama di <gap quantity="6" unit="chars" reason="illegible"/> che si svolgono tra casa e scuola,</add>
+                    <lb n="5" facs="#r5" xml:id="lb5" break="no"/>
+                    promessa, speranza, strazio. Concedete a chi
+                    <lb n="6" facs="#r6" xml:id="lb6" break="no"/>
+                    <add place="above">il formarsi e lo sbocciare di un anima eletta, di un'intelligenza</add>
+                    <lb n="7" facs="#r7" xml:id="lb7" break="no"/>
+                    L'ha conosciuto nella prima infanzia, di celebra
+                    <lb n="8" facs="#r8" xml:id="lb8" break="no"/>
+                    <add place="above">eccezionale:</add>
+                    <lb n="9" facs="#r9" xml:id="lb9" break="no" rend="double_stroke"/>
+                    re anche i ricordi di quei primi anni, <del rend="overstrike">di</del> felici.
+                    <lb n="10" facs="#r10" xml:id="lb10" break="no"/>
+                    <del rend="overstrike">quando si apriva giocondamente alla vita</del>.                
+                </ab>
+            </div> 
+        </body>
+    </text>
+</TEI>

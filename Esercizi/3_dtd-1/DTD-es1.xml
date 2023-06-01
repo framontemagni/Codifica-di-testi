@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+    Definire i seguenti elementi:
+    - elemento root: TEI
+    - elementi figli:
+        - header (obbligatorio una occorrenza)
+        - facsimile (opzionale una occorrenza)
+        - text (obbligatorio almento una occorrenza)
+    Gli elementi header, facsimile e text hanno tutti un content model testuale.
+-->
+<!DOCTYPE TEI [
+<!ELEMENT TEI (header, facsimile?, text+)>
+<!ELEMENT header (#PCDATA)>
+<!ELEMENT facsimile (#PCDATA)>
+<!ELEMENT text (#PCDATA)>
+]>
+
+<TEI>
+    <header> Prova </header>
+    <facsimile> Prova </facsimile>
+    <text> Prova </text>
+</TEI>

@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- Marcare un testo plain text di circa 3000 caratteri a piacere.-->
+<!DOCTYPE TEI SYSTEM "tei_all.dtd">
+
+<TEI>
+    <teiHeader xml:lang="it">
+        <fileDesc>
+            <titleStmt>
+                <title> Le avventure di Pinocchio. Storia di un burattino - edizione digitale </title>
+                <author> Carlo Collodi </author>
+                <respStmt>
+                    <resp> Codifica di </resp>
+                    <name> Francesca Montemagni </name>
+                </respStmt>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    Esercizio realizzato durante l'anno accademico <date from="2022" to="2023">2022-2023</date>, per il corso di Codifica di testi.
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <distributor> Francesca Montemagni </distributor>
+                <availability status="free"> <p>Edizione ad accesso libero </p></availability>
+            </publicationStmt>
+            <sourceDesc>
+                <biblStruct type="book">
+                    <monogr>
+                        <author>
+                            <persName>
+                                <forename> Carlo </forename>
+                                <surname> Collodi </surname>
+                            </persName>
+                        </author>
+                        <title> Le avventure di Pinocchio. Storia di un burattino </title>
+                        <imprint>
+                            <publisher> Libreria Editrice Felice Paggi </publisher>
+                            <date when="1851"> 1883 </date>
+                        </imprint>
+                    </monogr>
+                </biblStruct>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc><p>La codifica del testo è stata realizzata rispettando le linee guida TEI P5.</p></projectDesc>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="it"> Italiano </language>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+
+    <text xml:lang="en">
+        <body>
+            <div>
+
+                <head type="chapter"> Capitolo 1: Come andò che Maestro Ciliegia, falegname, trovò un pezzo di legno, che piangeva e rideva come un bambino. </head>
+
+                <p n="1">
+                    <lb n="1"/>
+                    C'era una volta...
+                    <lb n="2"/>
+                    - Un re! - diranno subito i miei piccoli lettori. 
+                    <lb n="3"/>
+                    - No, ragazzi, avete sbagliato. C'era una volta un pezzo di legno. 
+                    <lb n="4"/>
+                    Non era un legno di lusso, ma un semplice pezzo da catasta, di quelli che d'inverno si mettono nelle stufe e 
+                    <lb n="5"/>
+                    nei caminetti per accendere il fuoco e per riscaldare le stanze. 
+                </p>
+                <p n="2">
+                    <lb n="6"/>
+                    Non so come andasse, ma il fatto gli è che un bel giorno questo pezzo di legno capitò nella bottega di un 
+                    <lb n="7"/>
+                    vecchio falegname, il quale aveva nome mastr'Antonio se non che tutti lo chiamavano maestro Ciliegia, per 
+                    <lb n="8"/>
+                    via della punta del suo naso, che era sempre lustra e paonazza, come una ciliegia matura. 
+                    <lb n="9"/>
+                    Appena maestro Ciliegia ebbe visto quel pezzo di legno, si rallegrò tutto; e dandosi una fregatina di mani per 
+                    <lb n="10"/>
+                    la contentezza, borbottò a mezza voce: 
+                    <lb n="11"/>
+                    - Questo legno è capitato a tempo: voglio servirmene per fare una gamba di tavolino. 
+                    <lb n="12"/>
+                    Detto fatto, prese subito l'ascia arrotata per cominciare a levargli la scorza e a digrossarlo, ma quando fu lì 
+                    <lb n="13"/>
+                    per lasciare andare la prima asciata, rimase col braccio sospeso in aria, perché sentì una vocina sottile 
+                    <lb n="14"/>
+                    sottile, che disse raccomandandosi: 
+                    <lb n="15"/>
+                    - Non mi picchiar tanto forte! 
+                    <lb n="16"/>
+                    Figuratevi come rimase quel buon vecchio di maestro Ciliegia! 
+                    <lb n="17"/>
+                    Girò gli occhi smarriti intorno alla stanza per vedere di dove mai poteva essere uscita quella vocina, e non 
+                    <lb n="18"/>
+                    vide nessuno! Guardò sotto il banco, e nessuno; guardò dentro un armadio che stava sempre chiuso, e 
+                    <lb n="19"/>
+                    nessuno,- guardò nel corbello dei trucioli e della segatura, e nessuno; aprì l'uscio di bottega per dare 
+                    <lb n="20"/>
+                    un'occhiata anche sulla strada, e nessuno. O dunque?... 
+                    <lb n="21"/>
+                    - Ho capito; - disse allora ridendo e grattandosi la parrucca - si vede che quella vocina me la sono figurata io. 
+                    <lb n="22"/>
+                    Rimettiamoci a lavorare. 
+                </p>
+                <p n="3">
+                    <lb n="23"/>
+                    E ripresa l'ascia in mano, tirò giù un solennissimo colpo sul pezzo di legno. 
+                    <lb n="24"/>
+                    - Ohi! tu m'hai fatto male! - gridò rammaricandosi la solita vocina. 
+                    <lb n="25"/>
+                    Questa volta maestro Ciliegia restò di stucco, cogli occhi fuori del capo per la paura, 
+                    <lb n="26"/>
+                    colla bocca spalancata e colla lingua giù ciondoloni fino al mento, come un mascherone da fontana. 
+                    <lb n="27"/>
+                    Appena riebbe l'uso della parola, cominciò a dire tremando e balbettando dallo spavento: 
+                    <lb n="28"/>
+                    - Ma di dove sarà uscita questa vocina che ha detto ohi?... Eppure qui non c'è anima viva. Che sia per caso 
+                    <lb n="29"/>
+                    questo pezzo di legno che abbia imparato a piangere e a lamentarsi come un bambino? Io non lo posso 
+                    <lb n="30"/>
+                    credere. Questo legno eccolo qui; è un pezzo di legno da caminetto, come tutti gli altri, e a buttarlo sul 
+                    <lb n="31"/>
+                    fuoco, c'è da far bollire una pentola di fagioli... O dunque? Che ci sia nascosto dentro qualcuno? Se c'è 
+                    <lb n="32"/>
+                    nascosto qualcuno, tanto peggio per lui. Ora l'accomodo io! 
+                    <lb n="33"/>
+                    E così dicendo, agguantò con tutte e due le mani quel povero pezzo di legno, e si pose a sbatacchiarlo senza 
+                    <lb n="34"/>
+                    carità contro le pareti della stanza. 
+                    <lb n="35"/>
+                    Poi si messe in ascolto, per sentire se c'era qualche vocina che si lamentasse. Aspettò due minuti, e nulla; 
+                    <lb n="36"/>
+                    cinque minuti, e nulla; dieci minuti, e nulla! - Ho capito - disse allora sforzandosi di ridere e arruffandosi la 
+                    <lb n="37"/>
+                    parrucca - si vede che quella vocina che ha detto ohi, me la sono figurata io! Rimettiamoci a lavorare. 
+                </p>
+                <p n="4">
+                    <lb n="38"/>
+                    E perché gli era entrata addosso una gran paura, si provò a canterellare per farsi un po' di coraggio. Intanto, 
+                    <lb n="39"/>
+                    posata da una parte l'ascia, prese in mano la pialla, per piallare e tirare a pulimento il pezzo di legno; ma nel 
+                    <lb n="40"/>
+                    mentre che lo piallava in su e in giù, sentì la solita vocina che gli disse ridendo: 
+                    <lb n="41"/>
+                    - Smetti! tu mi fai il pizzicorino sul corpo! 
+                    <lb n="42"/>
+                    Questa volta il povero maestro Ciliegia cadde giù come fulminato. Quando riaprì gli occhi, si trovò seduto 
+                    <lb n="43"/>
+                    per terra. 
+                    <lb n="44"/>
+                    Il suo viso pareva trasfigurito, e perfino la punta del naso, di paonazza come era quasi sempre, gli era 
+                    <lb n="45"/>
+                    diventata turchina dalla gran paura.
+                </p>
+            </div>
+        </body>    
+    </text>
+</TEI>

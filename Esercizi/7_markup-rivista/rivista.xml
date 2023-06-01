@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Codificare usando gli opportuni elementi TEI un articolo di rivista. -->
+
+<!DOCTYPE TEI SYSTEM "tei_all.dtd">
+
+<TEI>
+    <teiHeader xml:lang="it">
+        <fileDesc>
+            <titleStmt>
+                <title>Sempre più aziende private controllano gli alloggi per studenti - edizione codificata</title>
+                <author> Sarah Gainsforth </author>
+                <respStmt xml:id="FM">
+                    <resp> Codifica di </resp>
+                    <name> Francesca Montemagni </name>
+                </respStmt>
+            </titleStmt>
+            <editionStmt>
+                <edition> Codifica digitale realizzata per il corso di Codifica di tesi, anno accademico 2022-2023.</edition>
+            </editionStmt>
+            <publicationStmt>
+                <distributor> Francesca Montemagni </distributor>
+                <availability status="free"> <p>Accesso libero </p></availability>
+            </publicationStmt>
+            <notesStmt>
+                <note> La codifica copre solo la prima sezione dell'articolo. </note>
+            </notesStmt>
+            <sourceDesc>
+                <biblStruct>
+                    <analytic>
+                        <author> Sarah Gainsforth</author>
+                        <title level="a"> Sempre più aziende private controllano gli alloggi per studenti</title>
+                    </analytic>
+                    <monogr>
+                        <title level="j"> L'essenziale </title>
+                        <imprint><date when="2023.05.17"> 17 maggio 2023</date></imprint>
+                    </monogr>
+                </biblStruct>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc><p>La codifica del testo è stata realizzata rispettando le linee guida TEI P5.</p></projectDesc>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="it">Italiano</language>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+
+    <text>
+        <body>
+            <div>
+                <p n="1">
+                    <lb n="2"/>
+                    <q>"Sono fortunato perché abito vicino alla stazione, a <placeName ref="FS">Frosinone Scalo</placeName>".</q> 
+                    <lb n="3"/>
+                    <persName> <forename>Mario</forename><surname> Cunto</surname> </persName> non ha cercato un alloggio a <placeName>Roma</placeName> perché non può 
+                    <lb n="4"/>
+                    spendere <num type="cardinal" value="500">cinquecento</num> euro al mese per una stanza. Così tutti i giorni 
+                    <lb n="5"/>
+                    passa <time dur="PT4H">quattro ore</time> sul treno nel tragitto tra casa e università. <persName><surname>Cunto</surname></persName> è tra 
+                    <lb n="6"/>
+                    gli studenti che la settimana scorsa hanno piantato le tende di fronte al rettorato della 
+                    <lb n="7"/>
+                    <placeName>Sapienza</placeName>. Su uno striscione appeso a una transenna c'era scritto <quote>"basta affitti 
+                    <lb n="8"/>
+                    insostenibili"</quote>. La protesta degli studenti contro il caro affitti, partita il <date when="2023.5.4">4 maggio</date> da 
+                    <lb n="9"/>
+                    <settlement type="city">Milano</settlement>, si è estesa a <settlement type="city">Roma</settlement>, <settlement type="city">Torino</settlement>, <settlement type="city">Bologna</settlement>, <settlement type="city">Cagliari</settlement>, <settlement type="city">Venezia</settlement> e <settlement type="city">Trento</settlement>, anche grazie alla 
+                    <lb n="10"/>
+                    mobilitazione nazionale indetta dall'<orgName>Unione degli universitari</orgName> con lo slogan <quote>"senza casa, 
+                    <lb n="11"/>
+                    senza futuro"</quote>.
+                </p>
+                <p n="2">
+                    <lb n="12"/>
+                    A fronte di un fabbisogno di circa <num type="cardinal" value="700000">700mila</num> studenti fuorisede i posti disponibili sono poco 
+                    <lb n="13"/>
+                    meno di <num type="cardinal" value="40000"></num>40mila: l'offerta pubblica negli studentati soddisfa appena il <num type="percentage" value="5%">5 per cento</num> della 
+                    <lb n="14"/>
+                    domanda. Gli studenti devono trovare un'abitazione in affitto ma i prezzi sono aumentati 
+                    <lb n="15"/>
+                    (il canone per il contratto agevolato per studenti è cresciuto del <num type="percentage" value="23%">23 per cento</num> tra il <date when="2019">2019</date> 
+                    <lb n="16"/>
+                    e il <date when="2021">2021</date>) e le case non si trovano più. Molte sono destinate a turisti, altre erano in 
+                    <lb n="17"/>
+                    ristrutturazione con il bonus <num type="percentage" value="110%">110 per cento</num> e non sono più tornate disponibili per gli 
+                    <lb n="18"/>
+                    studenti.  
+                </p>
+                <p n="3">
+                    <lb n="19"/>
+                    In risposta alla mobilitazione, la <persName><roleName>ministra</roleName> <forename>Anna Maria</forename><surname> Bernini</surname></persName> dell’università e della 
+                    <lb n="20"/>
+                    ricerca ha annunciato di aver sbloccato <num type="cardinal" value="960000000">960 milioni</num> di euro stanziati dal <rs>Piano nazionale 
+                    <lb n="21"/>
+                    di ripresa e resilienza (<abbr type="suspension">Pnrr</abbr>)</rs> per affidare ai gestori di studentati la creazione di <num type="cardinal" value="60000">60mila</num> 
+                    <lb n="22"/>
+                    nuovi posti letto entro il <date when="2026">2026</date>. Con questi fondi, da spendere in due fasi, i gestori possono 
+                    <lb n="23"/>
+                    acquistare o prendere in locazione immobili e appartamenti da destinare a studenti, con 
+                    <lb n="24"/>
+                    un vincolo d'uso che è stato ridotto da <num type="cardinal" value="25">venticinque</num> a <num type="cardinal" value="12">dodici</num> anni. Gli immobili acquistati 
+                    <lb n="25"/>
+                    resteranno di loro proprietà.
+                </p>
+                <p n="4">
+                    <lb n="26"/>
+                    Un altro bando per circa <num type="cardinal" value="400000000">400 milioni</num> di euro finanzierà la manutenzione di ulteriori posti 
+                    <lb n="27"/>
+                    letto. Inoltre, alla fine del <date when="2021">2021</date> erano ancora in corso di realizzazione <num type="cardinal" value="105">105</num> interventi per 
+                    <lb n="28"/>
+                    alloggi finanziati con risorse stanziate tra il <date when="2001">2001</date> e il <date when="2016">2016</date>.
+                </p>
+            </div>
+        </body>
+    </text>
+</TEI>

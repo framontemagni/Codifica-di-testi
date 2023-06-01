@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- Scrivere e fare il check di un xml non opportunamente annidato -->
+
+<root>
+
+    <t1><t2></t1></t2>
+
+</root>

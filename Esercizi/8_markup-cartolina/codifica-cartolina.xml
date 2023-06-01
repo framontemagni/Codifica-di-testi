@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- Codificare usando gli opportuni elementi TEI una cartolina -->
+<!DOCTYPE TEI SYSTEM "tei_all.dtd">
+<TEI>
+    <teiHeader xml:lang="it">
+        <fileDesc>
+            <titleStmt>
+                <title> 7 agosto 1954: cartolina da Napoli </title>
+                <respStmt>
+                    <resp>Codifica di</resp>
+                    <name type="person">Francesca Montemagni</name>
+                </respStmt>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    Edizione digitale realizzata per il corso di Codifica di testi, durante l'anno accademico <date from="2022" to="2023">2022 - 2023</date>.
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <distributor>Francesca Montemagni</distributor>
+                <availability status="free">
+                    <p>
+                        Accesso libero
+                    </p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>
+                    Cartolina del 1954 spedita a <persName><forename>Albertina</forename><surname>Guglielmo</surname></persName> da <name type="person">Gianni</name>.
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Codifica digitale di entrambi i lati della cartolina</p>
+        </encodingDesc>
+    </teiHeader>
+
+    <text type="cartolina">
+        <!-- TRASCRIZIONE -->
+        <body>
+            <div type="fronte">
+                <figure>
+                    <graphic url="Napoli-1954.jpg" />
+                    <figDesc> Napoli - Palazzo Donn'Anna </figDesc>
+                </figure>
+            </div>
+            <div type="retro">
+                <div type="message">
+                    <p>Infiniti auguri e baci da noi tutti</p>
+                    <signed>Zio Gianni</signed>
+                </div>
+                <div type="destination">
+                    <p>
+                        <address>
+                            <addrLine>Gentile</addrLine>
+                            <addrLine>Sig <add place="supralinear" hand="author">na</add><persName><forename>Albertina</forename><surname>Guglielmo</surname></persName></addrLine>
+                            <addrLine>Villa Pezzuto</addrLine>
+                            <addrLine> Vezza d'Alba</addrLine>
+                            <addrLine> (Cuneo) </addrLine>
+                        </address>
+                    </p>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

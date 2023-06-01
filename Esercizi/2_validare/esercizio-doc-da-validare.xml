@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<!-- 
+Aprire il file XML non ben formato presente nel repository github:
+- validarlo con un parder XML.
+- correggerlo (commentando gli errori e le modifiche).
+- aggiungere un figlio (child) ad un elemento.
+- aggiungere un fratello (sibling) ad un elemento.
+-->
+
+<!-- documento xml da validare -->
+<!-- 
+    file: esercizio-doc-da-validare
+    nome: Francesca Montemagni
+    data: 30.05.2023
+-->
+
+<!-- corpo del documento XML-->
+<elementoRadice>
+    <elementoFiglio>
+        <elementoAnnidato>
+            <!-- aggiungo un figlio (child) ad un elemento -->
+            <child></child>
+        </elementoAnnidato>
+        <!-- aggiungo un fratello (sibling) ad un elemento -->
+        <sibling></sibling>
+    </elementoFiglio>
+    <elementoFiglio>
+        <elementoAnnidato>
+            <elementoAnnidato>
+            <!-- aggiungo tag di chiusura a <elementoFiglio> -->
+            <elementoFiglio></elementoFiglio>
+            <!-- Aggiungo tag di chiusura a <elementoAnnidato> -->
+            </elementoAnnidato>
+        </elementoAnnidato>
+            <!-- Aggiungo tag di apertura <elementoFiglio> -->
+            <elementoFiglio></elementoFiglio>
+        <elementoAnnidato>
+            <elementoFiglio></elementoFiglio>
+        <!-- Aggiungo tag di chiusura a <elementoAnnidato> -->
+        </elementoAnnidato>
+    </elementoFiglio>
+</elementoRadice>
+
+<!-- epilogo -->

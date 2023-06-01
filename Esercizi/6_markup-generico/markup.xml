@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- Utilizzare puntatori, note, lista, glossario, marcare nomi, rs, term. -->
+<!DOCTYPE TEI SYSTEM "tei_all.dtd">
+
+<TEI>
+    <teiHeader xml:lang="it">
+        <fileDesc>
+            <titleStmt>
+                <title> Le avventure di Pinocchio. Storia di un burattino - edizione digitale </title>
+                <author> Carlo Collodi </author>
+                <respStmt>
+                    <resp> Codifica di </resp>
+                    <name> Francesca Montemagni </name>
+                </respStmt>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    Esercizio realizzato durante l'anno accademico <date from="2022" to="2023">2022-2023</date>, per il corso di Codifica di testi.
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <distributor> Francesca Montemagni </distributor>
+                <availability status="free"> <p>Edizione ad accesso libero </p></availability>
+            </publicationStmt>
+            <sourceDesc>
+                <biblStruct type="book">
+                    <monogr>
+                        <author>
+                            <persName>
+                                <forename> Carlo </forename>
+                                <surname> Collodi </surname>
+                            </persName>
+                        </author>
+                        <title> Le avventure di Pinocchio. Storia di un burattino </title>
+                        <imprint>
+                            <publisher> Libreria Editrice Felice Paggi </publisher>
+                            <date when="1851"> 1883 </date>
+                        </imprint>
+                    </monogr>
+                </biblStruct>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc><p>La codifica del testo è stata realizzata rispettando le linee guida TEI P5.</p></projectDesc>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="it"> Italiano </language>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+
+    <text xml:lang="en">
+        <body>
+            <div>
+
+                <head type="chapter"> Capitolo 1: Come andò che <name type="person">Maestro Ciliegia</name>, falegname, trovò un pezzo di legno, che piangeva e rideva come un bambino. </head>
+
+                <p n="1">
+                    <lb n="1"/>
+                    C'era una volta...
+                    <lb n="2"/>
+                    <q>- Un re! -</q> diranno subito i miei piccoli lettori. 
+                    <lb n="3"/>
+                    <q>- No, ragazzi, avete sbagliato. C'era una volta un pezzo di legno. </q>
+                    <lb n="4"/>
+                    Non era un legno di lusso, ma un semplice pezzo da catasta, di quelli che d'inverno si mettono nelle stufe e 
+                    <lb n="5"/>
+                    nei caminetti per accendere il fuoco e per riscaldare le stanze. 
+                </p>
+                <p n="2">
+                    <lb n="6"/>
+                    Non so come andasse, ma il fatto gli è che un bel giorno questo pezzo di legno capitò nella bottega di un 
+                    <lb n="7"/>
+                    vecchio falegname, il quale aveva nome <persName><roleName>mastr'</roleName><forename>Antonio</forename></persName> se non che tutti lo chiamavano <name type="person">maestro Ciliegia</name>, per 
+                    <lb n="8"/>
+                    via della punta del suo naso, che era sempre lustra e paonazza, come una ciliegia matura. 
+                    <lb n="9"/>
+                    Appena <name type="person">maestro Ciliegia</name> ebbe visto quel pezzo di legno, si rallegrò tutto; e dandosi una fregatina di mani per 
+                    <lb n="10"/>
+                    la contentezza, borbottò a mezza voce: 
+                    <lb n="11"/>
+                    <q>- Questo legno è capitato a tempo: voglio servirmene per fare una gamba di tavolino. </q>
+                    <lb n="12"/>
+                    Detto fatto, prese subito l'<term ref="ascia">ascia</term> arrotata per cominciare a levargli la scorza e a digrossarlo, ma quando fu lì 
+                    <lb n="13"/>
+                    per lasciare andare la prima asciata, rimase col braccio sospeso in aria, perché sentì una vocina sottile 
+                    <lb n="14"/>
+                    sottile, che disse raccomandandosi: 
+                    <lb n="15"/>
+                    <q>- Non mi picchiar tanto forte! </q>
+                    <lb n="16"/>
+                    Figuratevi come rimase quel buon vecchio di <name type="person">maestro Ciliegia</name>! 
+                    <lb n="17"/>
+                    Girò gli occhi smarriti intorno alla stanza per vedere di dove mai poteva essere uscita quella vocina, e non 
+                    <lb n="18"/>
+                    vide nessuno! Guardò sotto il banco, e nessuno; guardò dentro un armadio che stava sempre chiuso, e 
+                    <lb n="19"/>
+                    nessuno; guardò nel <term ref="corbello">corbello</term> dei trucioli e della segatura, e nessuno; aprì l'uscio di bottega per dare 
+                    <lb n="20"/>
+                    un'occhiata anche sulla strada, e nessuno. O dunque?... 
+                    <lb n="21"/>
+                    <q>- Ho capito; - </q>disse allora ridendo e grattandosi la parrucca <q>- si vede che quella vocina me la sono figurata io. 
+                    <lb n="22"/>
+                    Rimettiamoci a lavorare. </q>
+                </p>                
+            </div>
+        </body>
+        <back>
+            <div type="glossary">
+                <list type="gloss">
+                    <label xml:id="ascia"> ascia </label>
+                    <item> Attrezzo da taglio usato in carpenteria per sgrossare e lavorare il legname, costituito in genere da un robusto manico di legno al quale è fissata una lama leggermente ricurva con il taglio perpendicolare all’asse del manico (a foggia di zappa).</item>
+                    <label xml:id="corbello"> corbello </label>
+                    <item> Recipiente rotondo, di media grandezza, fatto di stecche di legno o di vimini, così come la roba in esso contenuta.</item> 
+                </list>
+            </div>
+        </back>
+    </text>
+</TEI>

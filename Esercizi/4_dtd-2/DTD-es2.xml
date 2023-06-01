@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- 
+    root: TEI
+    
+    figli: 
+    - header (obbligatorio una volta vola)
+    - facsimile (opzionale una volta sola)
+    - testo (obbligatorio una o più volte)
+    Testo è un mixed content con possibile elemento <seg>
+    
+    attributi:
+    - header: type:(fixed, CDATA "intestazione"); lang(opzionale, NMTOKEN)
+    - facsimile: source(obbligatorio); ref(opzionale, IDREFS)
+    - testo: id(obbligatorio, ID) type(opzionale contenuto testuale)
+
+ -->
+
+<!DOCTYPE TEI[
+<!ELEMENT TEI (header, facsimile?, testo+)>
+<!ELEMENT header (#PCDATA)>
+<!ELEMENT facsimile (#PCDATA)>
+<!ELEMENT seg (#PCDATA)>
+<!ELEMENT testo (#PCDATA|seg)*>
+
+<!ATTLIST header type CDATA #FIXED "intestazione">
+<!ATTLIST header lang NMTOKEN #IMPLIED>
+<!ATTLIST facsimile source CDATA #REQUIRED>
+<!ATTLIST facsimile ref IDREFS #IMPLIED>
+<!ATTLIST testo id ID #REQUIRED>
+<!ATTLIST testo type CDATA #IMPLIED>
+]>
+
+<TEI>
+    <header type="intestazione" lang="IT">
+        Intestazione
+    </header>
+    <facsimile source="fonte" ref="id">
+        Facsimile
+    </facsimile>
+    <testo id="id">
+        Testo <seg> seg </seg>
+    </testo>
+</TEI>
