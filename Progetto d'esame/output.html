@@ -1,0 +1,352 @@
+<!DOCTYPE HTML><html xmlns="http://www.w3.org/1999/xhtml" xmlns:tei="http://www.tei-c.org/ns/1.0">
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+      <title> Progetto di Codifica di testi - Francesca Montemagni </title>
+      <meta charset="utf-8">
+      <link rel="stylesheet" type="text/css" href="style.css">
+   </head>
+   <body>
+      <div class="copertina">
+         <div>
+            <h1> Diari di Emanuele Artom (1943-1944) </h1>
+            <h3> Edizione digitale  a cura di Francesca Montemagni </h3>
+         </div>
+      </div>
+      <div class="informazioniGenerali">
+         <div class="riassunto">
+            <p> Raccolta degli scritti autografi di Emanuele Artom redatti tra il 1943 e il 1944,
+               introdotti dalla lettera della madre  Amalia  Segre  Artom.</p>
+         </div>
+         <div class="descrizioneBibliografica">
+            <div class="bottoniInformazione"><button class="bottoneInfo" onclick="mostraInformazioni('contenitoreIdentificazione', 'contenitoreContenuti', 'descrizioneFisica')"> IDENTIFICAZIONE </button><button class="bottoneInfo" onclick="mostraInformazioni('contenitoreContenuti', 'contenitoreIdentificazione', 'descrizioneFisica')"> CONTENUTI </button><button class="bottoneInfo" onclick="mostraInformazioni('descrizioneFisica', 'contenitoreContenuti', 'contenitoreIdentificazione')"> DESCRIZIONE FISICA </button></div>
+            <div id="contenitoreDescrizione">
+               <div id="contenitoreIdentificazione">
+                  <h4 id="identificazione">Identificazione</h4>
+                  <table id="tableIdentificazione">
+                     <tr>
+                        <th><strong>Posizione:</strong></th>
+                        <th><span> Milano </span>, <span> Italia </span></th>
+                     </tr>
+                     <tr>
+                        <th><strong>Istituzione responsabile:</strong></th>
+                        <th><span> Centro di Documentazione Ebraica Contemporanea </span></th>
+                     </tr>
+                     <tr>
+                        <th><strong>Collezione:</strong></th>
+                        <th><span> Fondo Emanuele Artom </span></th>
+                     </tr>
+                     <tr>
+                        <th><strong>Manoscritto:</strong></th>
+                        <th><span> Fascicolo cartaceo cc. 91; busta 1, fascicolo 9.</span></th>
+                     </tr>
+                  </table>
+               </div>
+               <div id="contenitoreContenuti">
+                  <h4 id="contenuti">Contenuti</h4>
+                  <ul id="tableContenuti">
+                     <li><span> Lettera di presentazione</span></li>
+                     <li> Amalia Segre Artom</li>
+                     <li><span>Lingua:  Italiano </span></li>
+                  </ul>
+                  <ul id="tableContenuti">
+                     <li><span> Diario </span></li>
+                     <li> Emanuele Artom </li>
+                     <li><span>Lingua:  Italiano </span></li>
+                  </ul>
+               </div>
+               <div id="descrizioneFisica">
+                  <h4 id="descrizioneFisicaTitolo">Descrizione fisica</h4>
+                  <table id="fisica">
+                     <tr>
+                        <th><strong>Supporto:</strong></th>
+                     </tr>
+                     <tr>
+                        <th><span> Fogli di carta. </span></th>
+                     </tr>
+                     <tr>
+                        <th><strong>Composizione: </strong></th>
+                     </tr>
+                     <tr>
+                        <th><span> 172 pagine di diario, introdotte da 2 pagine, di cui la seconda è la lettera scritta
+                              dalla madre dell'autore. </span></th>
+                     </tr>
+                     <tr>
+                        <th><strong>Condizioni fisiche:</strong></th>
+                     </tr>
+                     <tr>
+                        <th><span> Il diario è in buone condizioni, nonostante l'inchiostro in certi punti sia un po'
+                              sbiadito e renda il testo meno leggibile. Sono inoltre presenti degli strappi ai bordi
+                              delle pagine, che però non compromettono la lettura dell'opera.</span></th>
+                     </tr>
+                  </table>
+               </div>
+            </div>
+         </div>
+         <div class="storia">
+            <p>
+               La stesura di questo diario va dal novembre 1943 al 23 febbraio 1944, durante l'esperienza
+               partigiana di Emanuele Artom.
+               </p>
+         </div>
+      </div>
+      <div class="principale">
+         <div class="divCambioPagina">
+            <h2 id="numeroPagina"></h2>
+            <div id="bottoniPag"><button onclick="cambioPagina(-1)"> ❮</button><button onclick="cambioPagina(1)">❯</button></div>
+         </div>
+         <div class="pp"><img src="img_61-63/artom_p61.jpg" usemap="#pagina61" alt="paginapagina61"><map name="pagina61"><area onmouseover="segnalaRiga(this, &#34;on&#34;)" onmouseout="segnalaRiga(this, &#34;off&#34;)" id="pag61_1" coords="18,57,532,101"><area onmouseover="segnalaRiga(this, &#34;on&#34;)" onmouseout="segnalaRiga(this, &#34;off&#34;)" id="pag61_2" coords="17,98,529,125"><area onmouseover="segnalaRiga(this, &#34;on&#34;)" onmouseout="segnalaRiga(this, &#34;off&#34;)" id="pag61_3" coords="16,123,527,159"><area onmouseover="segnalaRiga(this, &#34;on&#34;)" onmouseout="segnalaRiga(this, &#34;off&#34;)" id="pag61_4" coords="15,154,527,182"><area onmouseover="segnalaRiga(this, &#34;on&#34;)" onmouseout="segnalaRiga(this, &#34;off&#34;)" id="pag61_5" coords="15,181,526,212"><area onmouseover="segnalaRiga(this, &#34;on&#34;)" onmouseout="segnalaRiga(this, &#34;off&#34;)" id="pag61_6" coords="15,210,531,239"><area onmouseover="segnalaRiga(this, &#34;on&#34;)" onmouseout="segnalaRiga(this, &#34;off&#34;)" id="pag61_7" coords="13,239,529,270"><area onmouseover="segnalaRiga(this, &#34;on&#34;)" onmouseout="segnalaRiga(this, &#34;off&#34;)" id="pag61_8" coords="16,270,531,297"><area onmouseover="segnalaRiga(this, &#34;on&#34;)" onmouseout="segnalaRiga(this, &#34;off&#34;)" id="pag61_9" coords="17,296,530,325"><area onmouseover="segnalaRiga(this, &#34;on&#34;)" onmouseout="segnalaRiga(this, &#34;off&#34;)" id="pag61_10" coords="19,324,529,352"><area onmouseover="segnalaRiga(this, &#34;on&#34;)" onmouseout="segnalaRiga(this, &#34;off&#34;)" id="pag61_11" coords="17,352,532,383"><area onmouseover="segnalaRiga(this, &#34;on&#34;)" onmouseout="segnalaRiga(this, &#34;off&#34;)" id="pag61_12" coords="16,382,533,413"><area onmouseover="segnalaRiga(this, &#34;on&#34;)" onmouseout="segnalaRiga(this, &#34;off&#34;)" id="pag61_13" coords="16,411,533,438"><area onmouseover="segnalaRiga(this, &#34;on&#34;)" onmouseout="segnalaRiga(this, &#34;off&#34;)" id="pag61_14" coords="19,437,533,463"><area onmouseover="segnalaRiga(this, &#34;on&#34;)" onmouseout="segnalaRiga(this, &#34;off&#34;)" id="pag61_15" coords="20,466,534,496"><area onmouseover="segnalaRiga(this, &#34;on&#34;)" onmouseout="segnalaRiga(this, &#34;off&#34;)" id="pag61_16" coords="18,495,533,527"><area onmouseover="segnalaRiga(this, &#34;on&#34;)" onmouseout="segnalaRiga(this, &#34;off&#34;)" id="pag61_17" coords="18,527,532,556"><area onmouseover="segnalaRiga(this, &#34;on&#34;)" onmouseout="segnalaRiga(this, &#34;off&#34;)" id="pag61_18" coords="19,554,532,585"><area onmouseover="segnalaRiga(this, &#34;on&#34;)" onmouseout="segnalaRiga(this, &#34;off&#34;)" id="pag61_19" coords="17,586,530,612"><area onmouseover="segnalaRiga(this, &#34;on&#34;)" onmouseout="segnalaRiga(this, &#34;off&#34;)" id="pag61_20" coords="15,614,531,639"><area onmouseover="segnalaRiga(this, &#34;on&#34;)" onmouseout="segnalaRiga(this, &#34;off&#34;)" id="pag61_21" coords="15,641,533,665"><area onmouseover="segnalaRiga(this, &#34;on&#34;)" onmouseout="segnalaRiga(this, &#34;off&#34;)" id="pag61_22" coords="16,665,533,700"></map><div class="trascrizione">
+               <p>
+                  <br><span id="#pag61_1" class="">1</span>
+                  gli altri partigiani venissero e tagliassero
+                  <br><span id="#pag61_2" class="">2</span>
+                  i fili del telefono. Poi, sicuri del soccorso,
+                  <br><span id="#pag61_3" class="">3</span>
+                  resistettero. Giunsero i nazisti con 4 camion
+                  <br><span id="#pag61_4" class="">4</span>
+                  e un carro armato, ma combatterono con
+                  <br><span id="#pag61_5" class="">5</span>
+                  scarso entusiasmo. Sergio<span class="abbr"> D. </span><span class="expan"> Diena </span>fu ucciso da
+                  <br><span id="#pag61_6" class="">6</span>
+                  loro. Soffrì molto durante l'agonia:
+                  <br><span id="#pag61_7" class="">7</span>
+                  <span class="sic">Penso</span><span class="corr"> penso</span> che la sua perdita è più grave di
+                  <br><span id="#pag61_8" class="">8</span>
+                  quella di un altro soldato. Anzitutto re =
+                  <br><span id="#pag61_9" class="">9</span>
+                  cherà più dolore alla famiglia, <span class="sic">perchè</span><span class="corr">perché</span> noi
+                  <br><span id="#pag61_10" class="">10</span>
+                  siamo maggiormente sensibili e poi dopo 
+                  <br><span id="#pag61_11" class="">11</span>
+                  la guerra avrebbe <span class="add">potuto</span> svol<span class="del">to</span><span class="add">gere</span> una azione
+                  <br><span id="#pag61_12" class="">12</span>
+                  che  i più non sapranno svolgere.
+                  <br><span id="#pag61_13" class="">13</span>
+                  Ci sono uomini valorosissimi, come
+                  <br><span id="#pag61_14" class="">14</span>
+                  nella nostra banda un certo Nav<span class="del">o</span><span class="add">i</span>ga;
+                  <br><span id="#pag61_15" class="">15</span>
+                  costui, che ha più fegato di ogni altro,
+                  <br><span id="#pag61_16" class="">16</span>
+                  <span class="del">me</span> dovendo<span class="del">i</span> fare un colpo, la sera pri =
+                  <br><span id="#pag61_17" class="">17</span>
+                  ma andò in un postribolo di Pinerolo
+                  <br><span id="#pag61_18" class="">18</span>
+                  e raccontò tutto ad una prostituta, facendo
+                  <br><span id="#pag61_19" class="">19</span>
+                  andare a monte tutto. Finita la guerra,
+                  <br><span id="#pag61_20" class="">20</span>
+                  non gioverà più nulla, Naviga, <span class=" unclear ">alla</span>
+                  <br><span id="#pag61_21" class="">21</span>
+                  civiltà. Ieri ero con due ragazzi, che
+                  <br><span id="#pag61_22" class="">22</span>
+                  mi <span class="del">facevano</span><span class="add"> esponevano</span> le loro elucubrazioni.
+                  <span class=" supplied ">"</span>Se
+                  </p>
+            </div>
+         </div>
+         <div class="pp"><img src="img_61-63/artom_p62.jpeg" usemap="#pagina62" alt="paginapagina62"><map name="pagina62"><area onmouseover="segnalaRiga(this, &#34;on&#34;)" onmouseout="segnalaRiga(this, &#34;off&#34;)" id="pag62_23" coords="16,18,533,89"><area onmouseover="segnalaRiga(this, &#34;on&#34;)" onmouseout="segnalaRiga(this, &#34;off&#34;)" id="pag62_24" coords="15,82,527,112"><area onmouseover="segnalaRiga(this, &#34;on&#34;)" onmouseout="segnalaRiga(this, &#34;off&#34;)" id="pag62_25" coords="16,109,532,142"><area onmouseover="segnalaRiga(this, &#34;on&#34;)" onmouseout="segnalaRiga(this, &#34;off&#34;)" id="pag62_26" coords="16,141,532,170"><area onmouseover="segnalaRiga(this, &#34;on&#34;)" onmouseout="segnalaRiga(this, &#34;off&#34;)" id="pag62_27" coords="16,167,535,200"><area onmouseover="segnalaRiga(this, &#34;on&#34;)" onmouseout="segnalaRiga(this, &#34;off&#34;)" id="pag62_28" coords="17,198,533,223"><area onmouseover="segnalaRiga(this, &#34;on&#34;)" onmouseout="segnalaRiga(this, &#34;off&#34;)" id="pag62_29" coords="16,222,532,252"><area onmouseover="segnalaRiga(this, &#34;on&#34;)" onmouseout="segnalaRiga(this, &#34;off&#34;)" id="pag62_30" coords="18,252,534,285"><area onmouseover="segnalaRiga(this, &#34;on&#34;)" onmouseout="segnalaRiga(this, &#34;off&#34;)" id="pag62_31" coords="20,285,532,313"><area onmouseover="segnalaRiga(this, &#34;on&#34;)" onmouseout="segnalaRiga(this, &#34;off&#34;)" id="pag62_32" coords="19,310,533,339"><area onmouseover="segnalaRiga(this, &#34;on&#34;)" onmouseout="segnalaRiga(this, &#34;off&#34;)" id="pag62_33" coords="19,338,534,370"><area onmouseover="segnalaRiga(this, &#34;on&#34;)" onmouseout="segnalaRiga(this, &#34;off&#34;)" id="pag62_34" coords="19,367,532,398"><area onmouseover="segnalaRiga(this, &#34;on&#34;)" onmouseout="segnalaRiga(this, &#34;off&#34;)" id="pag62_35" coords="18,398,534,427"><area onmouseover="segnalaRiga(this, &#34;on&#34;)" onmouseout="segnalaRiga(this, &#34;off&#34;)" id="pag62_36" coords="17,427,534,455"><area onmouseover="segnalaRiga(this, &#34;on&#34;)" onmouseout="segnalaRiga(this, &#34;off&#34;)" id="pag62_37" coords="16,453,532,484"><area onmouseover="segnalaRiga(this, &#34;on&#34;)" onmouseout="segnalaRiga(this, &#34;off&#34;)" id="pag62_38" coords="17,483,532,512"><area onmouseover="segnalaRiga(this, &#34;on&#34;)" onmouseout="segnalaRiga(this, &#34;off&#34;)" id="pag62_39" coords="16,512,532,543"><area onmouseover="segnalaRiga(this, &#34;on&#34;)" onmouseout="segnalaRiga(this, &#34;off&#34;)" id="pag62_40" coords="16,541,535,570"><area onmouseover="segnalaRiga(this, &#34;on&#34;)" onmouseout="segnalaRiga(this, &#34;off&#34;)" id="pag62_41" coords="17,570,533,596"><area onmouseover="segnalaRiga(this, &#34;on&#34;)" onmouseout="segnalaRiga(this, &#34;off&#34;)" id="pag62_42" coords="19,596,534,626"><area onmouseover="segnalaRiga(this, &#34;on&#34;)" onmouseout="segnalaRiga(this, &#34;off&#34;)" id="pag62_43" coords="18,625,534,657"><area onmouseover="segnalaRiga(this, &#34;on&#34;)" onmouseout="segnalaRiga(this, &#34;off&#34;)" id="pag62_44" coords="16,656,532,692"></map><div class="trascrizione">
+               <p>
+                  <br><span id="#pag62_23" class="">23</span>
+                  di notte incontriamo un fascista <span class="add">e siamo disarmati</span><span class=" supplied ">"</span>, dicevano, 
+                  <br><span id="#pag62_24" class="">24</span>
+                  <span class=" supplied ">"</span>io lo piglio qui<span class=" supplied ">"</span>, e mi schiacciava il collo
+                  <br><span id="#pag62_25" class="">25</span>
+                  con una manaccia , <span class=" supplied ">"</span>il <span class="sic">suo</span><span class="corr"> mio</span> amico gli dà
+                  <br><span id="#pag62_26" class="">26</span>
+                  un pugno qua<span class=" supplied ">"</span>, e mi picchiava nello
+                  <br><span id="#pag62_27" class="">27</span>
+                  stomaco<span class=" supplied ">"</span>, poi, mentre è stordito gli pren =
+                  <br><span id="#pag62_28" class="">28</span>
+                  diamo la rivoltella e spariamo dentro
+                  <br><span id="#pag62_29" class="">29</span>
+                  l'orecchio<span class=" supplied ">"</span>. <span class="del">Si ecco</span>
+                  <br><span id="#pag62_30" class="">30</span>
+                  Oggi il prete mi ha detto che il suo padrone
+                  <br><span id="#pag62_31" class="">31</span>
+                  di casa ha dei dubbi su quanto gli ha
+                  <br><span id="#pag62_32" class="">32</span>
+                  raccontato di me e teme che sia un ribelle, ma
+                  <br><span id="#pag62_33" class="">33</span>
+                  lui lo ha rassicurato. Oggi, quando alle 4
+                  <br><span id="#pag62_34" class="">34</span>
+                  sono tornato e ho portato la farina
+                  <br><span id="#pag62_35" class="">35</span>
+                  perché mi facciano il pane per qualche
+                  <br><span id="#pag62_36" class="">36</span>
+                  tempo - così anche questo problema è
+                  <br><span id="#pag62_37" class="">37</span>
+                  risolto e il <span class=" foreign "><span class="sic">menage</span><span class="corr">ménage</span></span> si semplifica sempre
+                  <br><span id="#pag62_38" class="">38</span>
+                  più - mi ha accompagnato a casa e mi
+                  <br><span id="#pag62_39" class="">39</span>
+                  ha fatto una visita di più di un'ora;
+                  <br><span id="#pag62_40" class="">40</span>
+                  speravo di poter studiare, ed invece
+                  <br><span id="#pag62_41" class="">41</span>
+                  ho dovuto chiacchierare con lui,
+                  <br><span id="#pag62_42" class="">42</span>
+                  sempre in piemontese, per di più. Mi
+                  <br><span id="#pag62_43" class="">43</span>
+                  ha fatto grandi elogi degli <span class="sic">Ebrei</span><span class="corr">ebrei</span>;
+                  <br><span id="#pag62_44" class="">44</span>
+                  forse, escluso che sia un ribelle, ha
+                  </p>
+            </div>
+         </div>
+         <div class="pp"><img src="img_61-63/artom_p63.jpeg" usemap="#pagina63" alt="paginapagina63"><map name="pagina63"><area onmouseover="segnalaRiga(this, &#34;on&#34;)" onmouseout="segnalaRiga(this, &#34;off&#34;)" id="pag63_45" coords="13,55,523,90"><area onmouseover="segnalaRiga(this, &#34;on&#34;)" onmouseout="segnalaRiga(this, &#34;off&#34;)" id="pag63_46" coords="14,88,521,119"><area onmouseover="segnalaRiga(this, &#34;on&#34;)" onmouseout="segnalaRiga(this, &#34;off&#34;)" id="pag63_47" coords="14,116,528,145"><area onmouseover="segnalaRiga(this, &#34;on&#34;)" onmouseout="segnalaRiga(this, &#34;off&#34;)" id="pag63_48" coords="16,143,527,174"><area onmouseover="segnalaRiga(this, &#34;on&#34;)" onmouseout="segnalaRiga(this, &#34;off&#34;)" id="pag63_49" coords="17,171,525,200"><area onmouseover="segnalaRiga(this, &#34;on&#34;)" onmouseout="segnalaRiga(this, &#34;off&#34;)" id="pag63_50" coords="14,200,527,225"><area onmouseover="segnalaRiga(this, &#34;on&#34;)" onmouseout="segnalaRiga(this, &#34;off&#34;)" id="pag63_51" coords="14,226,528,256"><area onmouseover="segnalaRiga(this, &#34;on&#34;)" onmouseout="segnalaRiga(this, &#34;off&#34;)" id="pag63_52" coords="17,255,528,285"><area onmouseover="segnalaRiga(this, &#34;on&#34;)" onmouseout="segnalaRiga(this, &#34;off&#34;)" id="pag63_53" coords="18,285,529,318"><area onmouseover="segnalaRiga(this, &#34;on&#34;)" onmouseout="segnalaRiga(this, &#34;off&#34;)" id="pag63_54" coords="14,315,529,341"><area onmouseover="segnalaRiga(this, &#34;on&#34;)" onmouseout="segnalaRiga(this, &#34;off&#34;)" id="pag63_55" coords="19,343,529,371"><area onmouseover="segnalaRiga(this, &#34;on&#34;)" onmouseout="segnalaRiga(this, &#34;off&#34;)" id="pag63_56" coords="18,372,531,400"><area onmouseover="segnalaRiga(this, &#34;on&#34;)" onmouseout="segnalaRiga(this, &#34;off&#34;)" id="pag63_57" coords="15,401,530,429"><area onmouseover="segnalaRiga(this, &#34;on&#34;)" onmouseout="segnalaRiga(this, &#34;off&#34;)" id="pag63_58" coords="16,428,533,459"><area onmouseover="segnalaRiga(this, &#34;on&#34;)" onmouseout="segnalaRiga(this, &#34;off&#34;)" id="pag63_59" coords="16,460,530,486"><area onmouseover="segnalaRiga(this, &#34;on&#34;)" onmouseout="segnalaRiga(this, &#34;off&#34;)" id="pag63_60" coords="19,489,527,512"><area onmouseover="segnalaRiga(this, &#34;on&#34;)" onmouseout="segnalaRiga(this, &#34;off&#34;)" id="pag63_61" coords="18,516,528,545"><area onmouseover="segnalaRiga(this, &#34;on&#34;)" onmouseout="segnalaRiga(this, &#34;off&#34;)" id="pag63_62" coords="18,545,527,571"><area onmouseover="segnalaRiga(this, &#34;on&#34;)" onmouseout="segnalaRiga(this, &#34;off&#34;)" id="pag63_63" coords="17,572,527,601"><area onmouseover="segnalaRiga(this, &#34;on&#34;)" onmouseout="segnalaRiga(this, &#34;off&#34;)" id="pag63_64" coords="18,599,526,632"></map><div class="trascrizione">
+               <p>
+                  <br><span id="#pag63_45" class="">45</span>
+                  pensato che potrei essere un <span class="sic">Ebreo</span><span class="corr">ebreo</span> e,
+                  <br><span id="#pag63_46" class="">46</span>
+                  sebbene cercassi di sviare il discorso,
+                  <br><span id="#pag63_47" class="">47</span>
+                  è sempre ricaduto nella campagna
+                  <br><span id="#pag63_48" class="">48</span>
+                  antisemita: se lo faceva apposta, bisogna
+                  <br><span id="#pag63_49" class="">49</span>
+                  riconoscere che l'amico è tutt'altro
+                  <br><span id="#pag63_50" class="">50</span>
+                  che scemo.
+                  <br><span id="#pag63_51" class="">51</span>
+                  <span class=" unclear ">Poi</span> ho trascorso un'ora a bollare 300
+                  <br><span id="#pag63_52" class="">52</span>
+                  ricevute di buoni per l'<span class="sic">Esercito</span><span class="corr">esercito</span>, spu =
+                  <br><span id="#pag63_53" class="">53</span>
+                  tacchiando sui cuscinetti del timbro,
+                  <br><span id="#pag63_54" class="">54</span>
+                  che sono più asciutti e più duri del 
+                  <br><span id="#pag63_55" class="">55</span>
+                  tavolo: ecco un lavoro intelligente,
+                  <br><span id="#pag63_56" class="">56</span>
+                  di fiducia e di responsabilità, come
+                  <br><span id="#pag63_57" class="">57</span>
+                  dice <span class="abbr">Barb</span><span class="expan"> Barbato </span>. Scrivo da 3/4 d'ora al
+                  <br><span id="#pag63_58" class="">58</span>
+                  freddo, di sera, oggi, <span class=" date ">11 dicembre</span>;
+                  <br><span id="#pag63_59" class="">59</span>
+                  qualche anno fa non riuscivo a 
+                  <br><span id="#pag63_60" class="">60</span>
+                  scrivere ai primi di novembre
+                  <br><span id="#pag63_61" class="">61</span>
+                  in casa, <span class="del">con</span> se il termosifone non
+                  <br><span id="#pag63_62" class="">62</span>
+                  era acceso. Dovrà ancora venire il
+                  <br><span id="#pag63_63" class="">63</span>
+                  giorno in cui questa mi parrà una
+                  <br><span id="#pag63_64" class="">64</span>
+                  vita di gran lusso e raffinatissima?
+                  </p>
+            </div>
+         </div>
+         <div class="divCambioPagina">
+            <div id="bottoniPag"><button onclick="cambioPagina(-1)"> ❮</button><button onclick="cambioPagina(1)">❯</button></div>
+         </div>
+         <div class="divBottoni">
+            <div class="mostra"><button id="bottoneExpan" onclick="mostra('expan', '#ffdb4d', 'bottoneExpan')"> ESPANSIONI </button><button id="bottoneCorr" onclick="mostra('corr', '#e60000', 'bottoneCorr')"> CORREZIONI </button><button id="bottoneDel" onclick="mostra('del', '#ff0066', 'bottoneDel')"> CANCELLATURE </button><button id="bottoneSupplied" onclick="mostra('supplied', '#ff6633', 'bottoneSupplied')"> AGGIUNTE EDITORIALI </button><button id="bottoneAdd" onclick="mostra('add', '#00b8e6', 'bottoneAdd')"> AGGIUNTE DELL'AUTORE </button><button id="bottoneForeign" onclick="mostra('foreign', '#9999ff', 'bottoneForeign')"> PAROLE STRANIERE </button><button id="bottoneUnclear" onclick="mostra('unclear', '#00b300', 'bottoneUnclear')"> TESTO POCO LEGGIBILE </button><button id="bottoneDate" onclick="mostra('date', '#006600', 'bottoneDate')"> DATE </button></div>
+         </div>
+      </div>
+      <div class="back">
+         <div class="persone">
+            <div id="contenitorePersone">
+               <h2> Elenco delle persone </h2>
+               <ul>
+                  <li> Emanuele  Artom  (M)<br> Aosta,  23 giugno 1915 -  Torino, 7 aprile 1944 <br></li>
+               </ul>
+               <ul>
+                  <li> Amalia  Segre   Artom  (F)<br> Torino,  1890  -  Torino, 9 ottobre 1972 <br></li>
+               </ul>
+               <ul>
+                  <li> Sergio  Diena  (M)<br> Torino,  10 ottobre 1919  -  Villar Pellice, 4 dicembre 1943 <br></li>
+               </ul>
+               <ul>
+                  <li> Pompeo  Colajanni  (M)<br> Attivo e popolare tra i partigiani garibaldini, Colajanni prese il nome di battaglia
+                     "Barbato" in onore del medico socialista Nicola Barbato, protagonista dell'esperienza
+                     dei Fasci siciliani. Sotto questo nome, guidò attivamente la lotta partigiana.<br> Caltanissetta,  4 gennaio 1906  -  Palermo, 8 dicembre 1987 <br></li>
+               </ul>
+            </div>
+         </div>
+         <div class="luoghi">
+            <div id="contenitoreLuoghi">
+               <h2> Elenco dei luoghi </h2>
+               <ul>
+                  <li> Milano
+                     (provincia di Milano),
+                      Lombardia,
+                     Italia.
+                     </li>
+               </ul>
+               <ul>
+                  <li> Pinerolo
+                     (provincia di Torino),
+                      Piemonte,
+                      Italia.
+                     </li>
+               </ul>
+               <ul>
+                  <li> Torino
+                     (provincia di Torino),
+                      Piemonte,
+                      Italia.
+                     </li>
+               </ul>
+               <ul>
+                  <li> Aosta
+                     (provincia di Aosta),
+                      Valle d'Aosta,
+                      Italia.
+                     </li>
+               </ul>
+               <ul>
+                  <li> Villar Pellice
+                     (provincia di Torino),
+                      Piemonte,
+                      Italia.
+                     </li>
+               </ul>
+            </div>
+         </div>
+         <div class="organizzazioni">
+            <div id="contenitoreOrganizzazioni">
+               <h2> Elenco delle organizzazioni </h2>
+               <ul>
+                  <li> Fondazione Centro di Documentazione Ebraica Contemporanea <br>La Fondazione CDEC è un istituto di ricerca indipendente per la promozione e lo studio
+                     delle vicende, della cultura e della realtà degli ebrei in Italia, con particolare
+                     riferimento all'Italia contemporanea e al periodo nazi-fascista.</li>
+               </ul>
+               <ul>
+                  <li> Università di Pisa<br>L'Università di Pisa (UniPi), istituita ufficialmente nel 1343, è una delle più antiche
+                     e prestigiose università in Italia e in Europa.</li>
+               </ul>
+            </div>
+         </div>
+      </div>
+      <div class="fine">
+         <div class="bibliografia">
+            <div id="contenitoreBibliografia">
+               <h2> Opere consultate durante la codifica </h2>
+               <ul>
+                  <li> Diari: gennaio 1940 - febbraio 1944,
+                     
+                     
+                     Emanuele
+                     Artom
+                     
+                     .
+                     A cura di: 
+                     Paola 
+                     De Benedetti
+                     
+                     - Eloisa 
+                     Ravenna
+                     ,
+                     Centro di documentazione ebraica contemporanea, Milano, 1966.
+                     </li>
+               </ul>
+            </div>
+         </div>
+      </div>
+      <footer>
+         <h1>Sul progetto</h1>Progetto elaborato per l'esame di Codifica di testi, nel corso di laurea in Informatica
+         umanistica dell'Università di Pisa - anno accademico 2022-2023.<br> La codifica è stata realizzata rispettando le linee guida TEI P5 .<br><h3>Francesca Montemagni</h3>
+      </footer>
+   </body><script type="text/javascript" src="script.js"></script></html>

@@ -1,0 +1,447 @@
+/* Copertina */
+
+.copertina {
+	border-bottom-style: solid;
+	height: 40vh;
+	background-image: url("Artom.jpg");
+    text-align: center;
+	padding-top: 5vh;
+}
+
+.copertina div {
+	display: block;
+	margin-left: 45%;
+	width: 750px;
+	border-style: hidden;
+	padding-bottom: 1%;
+	padding-top: 1%;
+	padding-right:1%;
+	padding-left: 1%;
+}
+
+.copertina h1 {
+	text-align: right;
+	font-weight: bolder;
+	color: rgb(204, 0, 0);
+	text-transform: uppercase;
+	font-size: 310%;
+}
+
+.copertina h3 {
+	font-size: 150%;
+	text-align: right;
+	color: rgb(242, 228, 217);
+}
+
+body {
+	background-color: rgba(115, 77, 38, 0.8);
+}
+
+/* Informazioni generali */
+
+.riassunto, .storia {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width:1000px;
+	border-style: hidden;
+	background: rgba(51, 26, 0, 0.9);
+	padding-bottom: 1%;
+	padding-top: 1%;
+	padding-right:1%;
+	padding-left: 1%;
+	margin-top: 4rem;
+	margin-bottom: 2rem;
+}
+
+.riassunto p, .storia p {
+	text-align: left;
+	color: rgb(242, 228, 217);
+	font-size: 130%;
+}
+
+.informazioniGenerali {
+	width: 100%;
+	border-bottom: solid black 2px;
+}
+
+.bottoniInformazione {
+	margin-left: 18%;	
+}
+
+.bottoneInfo {
+	border-radius: 5px;
+	font-size: 16px;
+	padding: 1%;
+	width: 20%;
+	margin: 3%;
+	margin-bottom:0.2%;
+	border: 2px solid black;
+	background-color: rgba(115, 77, 38, 0.8);
+	color: black;
+}
+
+.bottoneInfo:hover {
+	background-color: rgb(204, 0, 0);
+	color: rgb(242, 228, 217);	
+}
+
+div#contenitoreIdentificazione, div#contenitoreContenuti, div#descrizioneFisica{
+	display: none;
+}
+
+div#contenitoreIdentificazione, div#contenitoreContenuti, div#descrizioneFisica {
+	margin-left: auto;
+	margin-right: auto;
+	width:1000px;
+	border: 2px solid black;
+	background-color: rgb(242, 228, 217);
+	color:black;
+	padding-bottom: 1%;
+	padding-top: 1%;
+	padding-right:1%;
+	padding-left: 1%;
+	margin-top: 1%;
+	margin-bottom: 2rem;
+	font-size: 110%;
+	text-align: justify;
+}
+
+#identificazione, #contenuti, #descrizioneFisicaTitolo {
+	text-align: left;
+	font-weight: bolder;
+	font-size: 120%;
+	font-weight: bolder;
+	padding-left: 20px;
+}
+
+#tableIdentificazione th, table#fisica th{
+	padding-top: 12px;
+	padding-bottom: 12px;
+	padding-left: 40px;
+	padding-right: 20px;
+	text-align: left;
+}
+
+
+/* Pagine e trascrizione */
+
+.principale {
+	border-bottom-style: 2px solid black;
+	border-top-style: 2px solid black;
+	color:black;
+	padding-top: 2%;
+}
+
+.divCambioPagina {
+	width: 100%;
+	justify-content: center;
+}
+
+div#bottoniPag {
+	padding-left: 15%;
+
+}
+
+div#bottoniPag > button {
+	border-radius: 50%;
+	font-size: 25px;
+	padding: 1%;
+	width: 8%;
+	margin: 1%;
+	margin-bottom: 2%;
+	border: 2px solid black;
+	background-color:rgba(51, 26, 0, 0.9);
+	color: rgb(242, 228, 217);
+}
+
+div#bottoniPag > button:hover{
+	background-color: rgb(204, 0, 0);
+	color:black;
+}
+
+h2#numeroPagina {
+	text-align:center;
+	color: rgb(179, 0, 0);
+	font-size: 200%;
+	text-transform: uppercase;
+}
+
+.pp {
+	width: 100%;
+	justify-content: center;
+}
+
+.pp > img, .pp > div.trascrizione {
+	margin: 2rem;
+}
+
+div.trascrizione {
+	font-size: 160%;
+}
+
+.pp > img{
+	max-width: 550px;
+	min-width: 550px;
+}
+
+.segnala {
+	color: rgb(242, 228, 217);
+	font-weight: bold;
+}
+
+.expan, .corr, .del {
+	display:none;
+}
+
+.divBottoni{
+	margin-left: 7%;	
+}
+
+.divBottoni button {
+	border-radius: 5px;
+	font-size: 16px;
+	padding: 1%;
+	width: 40%;
+	margin: 3%;
+	margin-bottom:0.2%;
+	border: 2px solid black;
+	background-color: rgba(115, 77, 38, 0.8);
+	color:rgb(242, 228, 217);
+}
+
+.divBottoni button:hover {
+	background-color: rgba(51, 26, 0, 0.9);
+	color: rgb(242, 228, 217);
+}
+
+div.back > div.persone, div.luoghi, div.organizzazioni {
+	margin-left: auto;
+	margin-right: auto;
+	width: 70%;
+	border: 2px solid black;
+	background-color: rgb(242, 228, 217);
+	color:black;
+	padding-bottom: 1%;
+	padding-top: 1%;
+	padding-right:3%;
+	padding-left: 3%;
+	margin-top: 4rem;
+	margin-bottom: 2rem;
+	font-size: 110%;
+	text-align: justify;
+}
+
+.fine {
+	width: 100%;
+	border-top: solid black 2px;
+}
+
+.bibliografia {
+	margin-left: auto;
+	margin-right: auto;
+	width: 85%;
+	border: 2px solid black;
+	color:black;
+	padding-bottom: 1%;
+	padding-top: 1%;
+	padding-right:3%;
+	padding-left: 3%;
+	margin-top: 4rem;
+	margin-bottom: 4rem;
+	font-size: 110%;
+	text-align: justify;
+}
+
+footer {
+	border-top: solid black 2px;
+	height: 20vh;
+    text-align: center;
+	padding-top: 5vh;
+	padding-bottom: 10vh;
+	color:rgb(242, 228, 217);
+	font-size: 110%;
+}
+
+footer> h1 {
+	color: rgb(179, 0, 0);
+}
+
+footer> h3 {
+	color: black;
+}
+
+
+@media screen and (max-width:1500px) {
+	
+	.copertina div {
+		display: block;
+		margin-left: 38%;
+		width: 750px;
+		border-style: hidden;
+		padding-bottom: 1%;
+		padding-top: 1%;
+		padding-right:1%;
+		padding-left: 1%;
+	}
+}
+
+@media screen and (max-width:1250px) {
+	.copertina div {
+		display: block;
+		margin-left: 40%;
+		width: 600px;
+		border-style: hidden;
+		padding-bottom: 1%;
+		padding-top: 1%;
+		padding-right:1%;
+		padding-left: 1%;
+	}
+	.pp > img, .pp > div.trascrizione {
+		margin: 1%;
+	}
+	
+	div.trascrizione {
+		font-size: 120%;
+	}
+	
+	.pp > img{
+		max-width: 550px;
+		min-width: 550px;
+	}
+}
+
+@media screen and (max-width:1150px){
+	
+	.copertina div {
+		display: block;
+		margin-left: 7%;
+		width: 90%;
+		border-style: hidden;
+		padding-bottom: 1%;
+		padding-top: 1%;
+		padding-right:1%;
+		padding-left: 1%;
+		margin-top: 8%;
+	}
+	.copertina h1 {
+		text-align: right;
+		font-weight: bolder;
+		color: rgb(204, 0, 0);
+		text-transform: uppercase;
+		font-size: 280%;
+	}
+
+	.copertina h3 {
+		color:rgb(242, 228, 217);
+	}
+
+	.riassunto, .storia {
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		width:90%;
+		border-style: hidden;
+		background: rgba(51, 26, 0, 0.9);
+		padding-bottom: 1%;
+		padding-top: 1%;
+		padding-right:1%;
+		padding-left: 1%;
+		margin-top: 4rem;
+		margin-bottom: 2rem;
+	}
+
+	.bottoneInfo {
+		border-radius: 5px;
+		font-size: 16px;
+		padding: 1%;
+		width: 30%;
+		margin: 3%;
+		margin-bottom:0.2%;
+		border: 2px solid black;
+		background-color: rgba(115, 77, 38, 0.8);
+		color: black;
+	}
+
+	div#contenitoreIdentificazione, div#contenitoreContenuti, div#descrizioneFisica {
+		margin-left: auto;
+		margin-right: auto;
+		width:90%;
+		border: 2px solid black;
+		background-color: rgb(242, 228, 217);
+		color:black;
+		padding-bottom: 1%;
+		padding-top: 1%;
+		padding-right:1%;
+		padding-left: 1%;
+		margin-top: 1%;
+		margin-bottom: 2rem;
+		font-size: 100%;
+		text-align: justify;
+	}
+
+	.pp > img, .pp > div.trascrizione {
+		margin: 1%;
+	}
+	
+	div.trascrizione {
+		font-size: 120%;
+	}
+	
+	.pp > img{
+		max-width: 550px;
+		min-width: 550px;
+	}
+}
+
+@media screen and (max-width:900px) {
+	.riassunto, .storia {
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		width:90%;
+		border-style: hidden;
+		background: rgba(51, 26, 0, 0.9);
+		padding-bottom: 1%;
+		padding-top: 1%;
+		padding-right:1%;
+		padding-left: 1%;
+		margin-top: 2rem;
+		margin-bottom: 2rem;
+	}
+
+	.riassunto p, .storia p {
+		text-align: left;
+		color: rgb(242, 228, 217);
+		font-size: 120%;
+	}
+
+	.bottoneInfo {
+		border-radius: 5px;
+		font-size: 16px;
+		padding: 1%;
+		width: 38%;
+		margin: 3%;
+		margin-bottom:0.2%;
+		border: 2px solid black;
+		background-color: rgba(115, 77, 38, 0.8);
+		color: black;
+	}
+
+	.pp > img, .pp > div.trascrizione {
+		margin: 1rem;
+	}
+	
+	div.trascrizione {
+		font-size: 120%;
+		position: static;
+	    transform: none;
+	}
+	
+	.pp > img{
+		max-width: 550px;
+		min-width: 550px;
+		position: static;
+	    transform: none;
+	}
+}
